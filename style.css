@@ -1,0 +1,116 @@
+/* OG colors */
+:root {
+  --one-color: #0218ff;
+  --two-color: #028009;
+  --three-color: #ff0000;
+  --four-color: #000b80;
+  --five-color: #7f0000;
+  --six-color: #028181;
+  --seven-color: #000000;
+  --eight-color: #717171;
+  --bg-color: #bcbcbc;
+  --light-border-color: #ffffff;
+  --dark-border-color: #717171;
+  --lit-clock-color: #ff0000;
+  --unlit-clock-color: #5e0101;
+  --clock-bg-color: #000000;
+  --desktop-teal-color: #0d8384;
+}
+/* original desktop color */
+body {
+  background: var(--desktop-teal-color);
+}
+.container {
+  width: 600px;
+  align-content: center;
+}
+/* playing grid styling
+*/
+.grid {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--bg-color);
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 
+    10px 
+    solid 
+    var(--light-border-color) 
+    var(--dark-border-color) 
+    var(--dark-border-color) 
+    var(--light-border-color);
+}
+/* fonts */
+div {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+/* cell */
+.valid {
+  height: 50px;
+  width: 50px;
+  border: 5px solid;
+  border-color:
+    var(--light-border-color) 
+    var(--dark-border-color) 
+    var(--dark-border-color)
+    var(--light-border-color);
+  box-sizing: border-box;
+}
+/* clicked cell */
+.checked {
+  height: 50px;
+  width: 50px;
+  border: 2px solid;
+  background-color: var(--bg-color);
+  border-color: var(--dark-border-color);
+  box-sizing: border-box;
+}
+/* unclicked bomb cell */
+.bomb {
+  height: 50px;
+  width: 50px;
+  border: 5px solid;
+  border-color: 
+    var(--light-border-color) 
+    var(--dark-border-color) 
+    var(--dark-border-color) 
+    var(--light-border-color);
+  box-sizing: border-box;
+}
+/* mine number coloring */
+.one {
+  color: var(--one-color);
+}
+
+.two {
+  color: var(--two-color);
+}
+
+.three {
+  color: var(--three-color);
+}
+
+.four {
+  color: var(--four-color);
+}
+
+.five {
+  color: var(--five-color);
+}
+
+.six {
+  color: var(--six-color);
+}
+
+.seven {
+  color: var(--seven-color);
+}
+
+.eight {
+  color: var(--eight-color);
+}
