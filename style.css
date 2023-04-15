@@ -45,7 +45,7 @@ body {
 }
 /* fonts */
 div {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
 }
@@ -69,6 +69,9 @@ div {
   background-color: var(--bg-color);
   border-color: var(--dark-border-color);
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* unclicked bomb cell */
 .bomb {
