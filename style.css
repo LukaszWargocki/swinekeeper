@@ -74,7 +74,7 @@ div {
   align-items: center;
 }
 /* unclicked bomb cell */
-.bomb {
+.mine {
   height: 50px;
   width: 50px;
   border: 5px solid;
@@ -84,6 +84,9 @@ div {
     var(--dark-border-color) 
     var(--light-border-color);
   box-sizing: border-box;
+}
+.exploded {
+  background: var(--three-color);
 }
 /* mine number coloring */
 .one {
